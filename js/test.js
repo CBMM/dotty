@@ -1,2 +1,27 @@
-console.log('Hello World');
-alert('Hello again');
+//console.log('Hello World');
+//alert('Hello again');
+// Game props 
+
+
+gameProps{
+    Ndots:10;
+    seed:1;
+}
+
+dot{
+    ind:1;
+    size:2;
+    col:'red';
+
+}
+
+function addCircle(dot, parent){
+    svgns = "http://www.w3.org/2000/svg"
+    e = document.createElementNS(svgns,'circle')
+    e.setAttribute('cx', '50')
+    e.setAttribute('cy', '50')
+    e.setAttribute('r', '25')
+    e.setAttribute('fill', 'purple')
+    parent.appendChild(e)
+    return e
+}
