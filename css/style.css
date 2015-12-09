@@ -1,0 +1,13 @@
+body {
+    background:rgb(115,122,0);
+}
+
+p {
+    background:green;
+    box-shadow: 2px 2px 2px black;
+}
+
+p:hover {
+    background: white;
+    opacity: 0.5;
+}
