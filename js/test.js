@@ -29,10 +29,10 @@ function addCircle(dot, parent){
 circleSpec = [
     { x: 10 ,
       y: 20 ,
-      c: green
+      c: "green"
     },
     { x: 100,
       y: 200,
-      c: blue
+      c: "blue"
     }
 ]
