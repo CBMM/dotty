@@ -35,7 +35,7 @@ circleSpec = [
       y: 200,
       c: "blue"
     }
-]
+];
 
 function placeCircles(circSpec) {
     // something
