@@ -3,25 +3,36 @@
 // Game props 
 
 
-gameProps{
-    Ndots:10;
-    seed:1;
-}
+gameProps = {
+    Ndots:10,
+    seed:1
+};
 
-dot{
-    ind:1;
-    size:2;
-    col:'red';
+dot = {
+    ind:1,
+    size:2,
+    col:'red'
 
-}
+};
 
 function addCircle(dot, parent){
-    svgns = "http://www.w3.org/2000/svg"
-    e = document.createElementNS(svgns,'circle')
-    e.setAttribute('cx', '50')
-    e.setAttribute('cy', '50')
-    e.setAttribute('r', '25')
-    e.setAttribute('fill', 'purple')
-    parent.appendChild(e)
-    return e
+    svgns = "http://www.w3.org/2000/svg";
+    e = document.createElementNS(svgns,'circle');
+    e.setAttribute('cx', '50');
+    e.setAttribute('cy', '50');
+    e.setAttribute('r', '25');
+    e.setAttribute('fill', 'purple');
+    parent.appendChild(e);
+    return e;
 }
+
+circleSpec = [
+    { x: 10 ,
+      y: 20 ,
+      c: green
+    },
+    { x: 100,
+      y: 200,
+      c: blue
+    }
+]
