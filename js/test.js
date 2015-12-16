@@ -40,3 +40,8 @@ circleSpec = [
 function placeCircles(circSpec) {
     // something
 }
+
+people = {name: "Greg", id: 5, last: "Hale"};
+
+
+for x in people
