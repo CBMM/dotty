@@ -36,3 +36,7 @@ circleSpec = [
       c: "blue"
     }
 ]
+
+function placeCircles(circSpec) {
+    // something
+}
